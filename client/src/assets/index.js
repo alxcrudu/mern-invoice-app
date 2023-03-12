@@ -1,0 +1,11 @@
+export { default as logoPng } from "./images/logo.png";
+export { default as logoSvg } from "./images/logo.svg";
+export { default as iconSun } from "./images/icon-sun.svg";
+export { default as iconMoon } from "./images/icon-moon.svg";
+export { default as imgAvatar } from "./images/image-avatar.jpg";
+export { default as iconPlus } from "./images/icon-plus.svg";
+export { default as arrowRight } from "./images/icon-arrow-right.svg";
+export { default as arrowLeft } from "./images/icon-arrow-left.svg";
+export { default as arrowDown } from "./images/icon-arrow-down.svg";
+export { default as iconDelete } from "./images/icon-delete.svg";
+export { default as waves } from "./images/waves.svg";

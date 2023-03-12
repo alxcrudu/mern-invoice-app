@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Spartan";
+  src: url("./assets/fonts/SpartanMB-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spartan";
+  src: url("./assets/fonts/SpartanMB-Regular.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spartan";
+  src: url("./assets/fonts/SpartanMB-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Spartan", sans-serif;
+}
+
+.divider {
+  background: rgba(255, 255, 255, 0.1);
+  height: 1px;
+  width: 100%;
+}
+
+.custom-cols {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 1fr 1fr 0.3fr;
+  gap: 1em;
+}
+
+.custom-border {
+  border: 1px solid transparent;
+  transition: border ease 0.2s;
+}
+.custom-border:hover {
+  border: 1px solid rgb(119, 94, 241);
+}
+
+.custom-bg {
+  background: url("./assets/images/waves.svg");
+  background-size: cover;
+}
+
+.sidebar-btn {
+  color: rgb(134, 139, 175);
+  transition: all linear 0.2s;
+}
+.sidebar-btn:hover {
+  color: #fff;
+}
+
+/* wave animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
