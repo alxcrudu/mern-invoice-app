@@ -19,19 +19,6 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 
-// mongoose.set("strictQuery", true);
-// mongoose.connect(
-//   MONGO_URI,
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   },
-//   (err) => {
-//     if (!err) console.log("Succesfully connected to DB!");
-//     else console.log("Could not connect to DB!");
-//   }
-// );
-
 const connectDB = async () => {
   try {
     mongoose.set("strictQuery", true);
@@ -59,4 +46,3 @@ connectDB().then(() => {
       console.log(`Server started on port ${port}`);
   })
 })
-// app.listen(port, () => console.log(`Server started on port ${port}`));

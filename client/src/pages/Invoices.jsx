@@ -10,7 +10,6 @@ import { ThemeContext } from "../context/ThemeProvider";
 import Checkboxes from "../components/Checkboxes";
 import { AnimatePresence, motion } from "framer-motion";
 import { CircularProgress } from "@mui/material";
-import { Link } from "react-router-dom";
 
 export default function Invoices() {
   const { setModalIsOpen, setEditMode } = useContext(ModalContext);
@@ -128,7 +127,6 @@ export default function Invoices() {
               ) : (
                 <div className="text-xs font-light text-center text-primary">
                   No invoices selected...
-                  <Link to='/login'>go to login test</Link>
                 </div>
               )}
             </AnimatePresence>
