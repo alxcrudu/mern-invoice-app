@@ -19,7 +19,7 @@ export default function Layout() {
         fetchProfile();
       } catch (error) {
         if(error.response?.data?.message === "Access token not found!") {
-          return navigate("/")
+          return navigate("/login")
         }
       }
     }

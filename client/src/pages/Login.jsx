@@ -52,11 +52,11 @@ export default function Login() {
           loading: true,
         });
         setTimeout(() => {
-          navigate("/home");
           setNotification({
             ...notification,
             loading: false,
           });
+          navigate("/home");
         }, 500);
       });
     } catch (err) {
@@ -71,7 +71,6 @@ export default function Login() {
 
   useEffect(() => {
     if(localStorage.getItem("isAuthenticated")) {
-      console.log("test")
       navigate("/home");
     }
   }, [])

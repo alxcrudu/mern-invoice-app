@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a05c2ea3.css",
-    "main.js": "/static/js/main.ecaa3666.js",
+    "main.js": "/static/js/main.eba8e9e9.js",
     "static/media/SpartanMB-Bold.otf": "/static/media/SpartanMB-Bold.c6095ab6922ec977058a.otf",
     "static/media/SpartanMB-Light.otf": "/static/media/SpartanMB-Light.75bb8d0f51a1a38ce00f.otf",
     "static/media/SpartanMB-Regular.otf": "/static/media/SpartanMB-Regular.38f0732bbe8ce648c780.otf",
@@ -16,10 +16,10 @@
     "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.a6ed7bfffecda935c666fda2939c385c.svg",
     "static/media/icon-arrow-right.svg": "/static/media/icon-arrow-right.9e19be64001504a17c146eb378c556a2.svg",
     "main.a05c2ea3.css.map": "/static/css/main.a05c2ea3.css.map",
-    "main.ecaa3666.js.map": "/static/js/main.ecaa3666.js.map"
+    "main.eba8e9e9.js.map": "/static/js/main.eba8e9e9.js.map"
   },
   "entrypoints": [
     "static/css/main.a05c2ea3.css",
-    "static/js/main.ecaa3666.js"
+    "static/js/main.eba8e9e9.js"
   ]
 }
